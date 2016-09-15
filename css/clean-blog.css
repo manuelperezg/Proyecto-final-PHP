@@ -9,7 +9,7 @@ body {
   color: #333333;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 30px 0;
 }
 p a {
@@ -29,7 +29,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+box-shadow:         2px 2px 11px 0px rgba(93, 77, 252, 0.39);
 }
 a img:hover,
 a img:focus {
@@ -39,6 +39,27 @@ blockquote {
   color: #777777;
   font-style: italic;
 }
+
+.thumbnail{
+position: relative;
+
+}
+.panel-default:hover{
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+    -moz-box-shadow:    2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+    box-shadow:         2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+
+
+}
+.thumbnail:hover{
+    cursor: pointer;
+
+    -webkit-box-shadow: 2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+    -moz-box-shadow:    2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+    box-shadow:         2px 2px 11px 0px rgba(93, 77, 252, 0.39);
+}
+
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -146,6 +167,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
